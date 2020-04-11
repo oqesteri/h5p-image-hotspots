@@ -1,0 +1,96 @@
+  
+{
+  "semantics": [
+    {
+      "label": "Figura sfond",
+      "description": "Figura e treguar në sfond"
+    },
+    {
+      "label": " Texti alternativë për figurën në sfond",
+      "description": "Nëse shfletuesi nuk mund të ngarkojë imazhin ky tekst do të shfaqet. Gjithashtu i përdorur nga teknologjitë ndihmëse."
+    },
+    {
+      "label": "Shenja Hotspot",
+      "options": [
+        {
+          "label": "Shenja e parapërcaktuar"
+        },
+        {
+          "label": "Ngarko figurën"
+        }
+      ]
+    },
+    {
+      "label": "Shenja e parapërcaktuar",
+      "description": "Të përdorësh shenjën e parapërcaktuar.",
+      "options": [
+        {
+          "label": "Plus"
+        },
+        {
+          "label": "Minus"
+        },
+        {
+          "label": "Kohë"
+        },
+        {
+          "label": "Check"
+        },
+        {
+          "label": "Pyetje"
+        },
+        {
+          "label": "Info"
+        },
+        {
+          "label": "Pikëçuditëse"
+        }
+      ]
+    },
+    {
+      "label": "Ngarko Figurën",
+      "description": "Përdor figurën tënde si shenjë hotspot.<br>75px me 75px është e rekomanduar për figurën tuaj."
+    },
+    {
+      "label": "Ngjyra e hotspot",
+      "description": "Ngjyra e hotspoteve"
+    },
+    {
+      "entity": "hotspot",
+      "label": "Hotspots",
+      "field": {
+        "label": "Hotspot",
+        "fields": [
+          {
+            "label": "Poziiconi i Hotspot",
+            "description": "Klikoni në imazhin e vogël për të caktuar hotspot-in"
+          },
+          {
+            "label": "Mbulo të gjithë figurën në sfond",
+            "description": "Kur përdoruesi klikon mbi hotspot dritarja e mbivendosur do të mbulojë gjithë sfondin"
+          },
+          {
+            "label": "Kreu",
+            "description": "Kreu opsional për dritaren e mbivendosur"
+          },
+          {
+            "label": "Mbivendosje e përmbajtjes",
+            "field": {
+              "label": "Artikulli i përmbajtjes"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "Etiketa hotspot për teknologjitë ndihmëse",
+      "default": "Hotspot #num",
+      "description": " Do të ndihmojë të njoftojë cili element është lundruar dhe nëse kreu nuk është specifikuar për hotspot. #num mund të përdoret për të zëvëndësuar numrin e hotspot."
+    },
+    {
+      "label": "Etiketa e butonit mbyll për teknologjitë ndihmëse",
+      "default": "Mbyll"
+    }
+  ]
+}
+
